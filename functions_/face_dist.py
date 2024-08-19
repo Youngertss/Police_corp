@@ -3,7 +3,7 @@ from skimage import io     #считываеться изображение
 from scipy.spatial import distance  #проверка на едентичность людей
 
 def checkFace(img_path,img_path2):
-    #загрузка скаченных моделей
+    #загрузка скачанных моделей
     sp=dlib.shape_predictor("predictors_\shape_predictor_68_face_landmarks.dat") 
     facerec=dlib.face_recognition_model_v1('predictors_\dlib_face_recognition_resnet_model_v1.dat')
 

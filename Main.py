@@ -8,7 +8,7 @@ from PyQt5.QtGui import QPixmap
 
 import sqlite3 as sql
 import os
-from functions_.BD_work import add_person, search_with_name, check_all
+from functions_.database import add_person, search_with_name, check_all
 
 flag_message_but=False
 global_path_item=''                     #path  к выбраному фото

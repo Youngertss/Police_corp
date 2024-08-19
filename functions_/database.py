@@ -1,6 +1,6 @@
 import sqlite3 as sql
-from functions_.face_dist import checkFace
 from os import remove
+from functions_.face_dist import checkFace
 #photos=cur.execute("SELECT photo_ FROM train_bd ")
 def add_person(person_name,img_path):
     if person_name=='' or person_name==' ' or img_path=='' or img_path==' ':
